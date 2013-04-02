@@ -140,64 +140,174 @@ $('#river').live('pageshow',function()  {
                 $('#map_canvas').gmap('openInfoWindow', { 'content': bBridge }, this);
                 });                                                                                                                                                                                                                               
                 });
+                
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.310329790262,-86.870672106743', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': hFifty }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.297244,-86.843658', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': bCreek }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.185139500547,-87.001166939735', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': bFord }, this);
+                });                                                                                                                                                                                                                               
+                });
+                
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.169707677776,-87.017211914062', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': presOne }, this);
+                });                                                                                                                                                                                                                               
+                });
  
                 
-
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.165553,-87.029444', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': mSlab }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.159892,-87.025933', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': tTake }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.094993107768,-87.057638168335', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': cWild }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.080236,-87.066994', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': lilyTrip }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.077236,-87.072814', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': cCreek }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '33.018681,-87.078219', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': pFerry }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.944942,-87.139044', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': cHist }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.855652799757,-87.19792842865', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': hBridge }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+ 				$('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.774700327269,-87.272965908051', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': heBridge }, this);
+                });                                                                                                                                                                                                                               
+                });
+            
+               $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.694539,-87.243008', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': pLake }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.668226600493,-87.24228143692', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': sBridge }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.591623528431,-87.217326164246', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': rAccess }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.528578828718,-87.203464508057', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': suttle }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.44445036694,-87.180236577988', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': h80 }, this);
+                });                                                                                                                                                                                                                               
+                });
+ 
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.35945,-87.133056', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': h22 }, this);
+                });                                                                                                                                                                                                                               
+                });
                 
-
+                $('#map_canvas').gmap().bind('init', function() { 
+	                $('#map_canvas').gmap('addMarker', { 'position':  '32.315653178625,-87.09743142128', 						'bounds': true }).click(function() {
+                $('#map_canvas').gmap('openInfoWindow', { 'content': takeOut }, this);
+                });                                                                                                                                                                                                                               
+                });
+                });
+ 
+ 
                 
-
-                
-
-               
-
                 
 
               
 
                
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.310329790262,-86.870672106743', 'bounds': true } );
+               
 
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.297244,-86.843658', 'bounds': true } );
 
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.185139500547,-87.001166939735', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.169707677776,-87.017211914062', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.165553,-87.029444', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.159892,-87.025933', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.094993107768,-87.057638168335', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.080236,-87.066994', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.077236,-87.072814', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '33.018681,-87.078219', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.944942,-87.139044', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.855652799757,-87.19792842865', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.774700327269,-87.272965908051', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.694539,-87.243008', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.668226600493,-87.24228143692', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.591623528431,-87.217326164246', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.528578828718,-87.203464508057', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.44445036694,-87.180236577988', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.35945,-87.133056', 'bounds': true } );
-
-                $('#map_canvas').gmap('addMarker', { /*id:'m_1',*/ 'position': '32.315653178625,-87.09743142128', 'bounds': true } );
 
                
-        });
+
+     
+
+               
+
+                
+
+               
+
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+        
 
 
         
