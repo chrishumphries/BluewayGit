@@ -1,4 +1,4 @@
-img, .homeimg, .headimg{
+img, .homeimg, .headimg, .tanimg, .cokeimg, .bpark, .cimg, .mimg{
 	max-width: 100%;
 }
 
@@ -6,3 +6,7 @@ img, .homeimg, .headimg{
 	margin-top: -20px;
 }
 
+.fb-like-box{
+	margin-left: -22px;
+	margin-top: -40px;
+}
